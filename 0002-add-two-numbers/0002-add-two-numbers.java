@@ -1,7 +1,7 @@
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int carry = 0;
-        ListNode dummy = new ListNode(0); // Dummy node to simplify handling of the result list
+        ListNode dummy = new ListNode(0);
         ListNode current = dummy;
 
         while (l1 != null || l2 != null || carry > 0) {
@@ -28,7 +28,6 @@ class Solution {
 
 public class Main {
     public static void main(String[] args) {
-        // Example Input: Representing 243 and 465
         ListNode l1 = new ListNode(2);
         l1.next = new ListNode(4);
         l1.next.next = new ListNode(3);
@@ -40,7 +39,6 @@ public class Main {
         Solution solution = new Solution();
         ListNode result = solution.addTwoNumbers(l1, l2);
 
-        // Output the result list
         System.out.print("Output: ");
         while (result != null) {
             System.out.print(result.val);
