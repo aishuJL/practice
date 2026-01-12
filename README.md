@@ -10,11 +10,13 @@
 | [0026-remove-duplicates-from-sorted-array](https://github.com/aishuJL/practice/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0088-merge-sorted-array](https://github.com/aishuJL/practice/tree/master/0088-merge-sorted-array) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aishuJL/practice/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0349-intersection-of-two-arrays](https://github.com/aishuJL/practice/tree/master/0349-intersection-of-two-arrays) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/aishuJL/practice/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/aishuJL/practice/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0349-intersection-of-two-arrays](https://github.com/aishuJL/practice/tree/master/0349-intersection-of-two-arrays) |
 ## Linked List
 |  |
 | ------- |
@@ -44,6 +46,7 @@
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/aishuJL/practice/tree/master/0004-median-of-two-sorted-arrays) |
+| [0349-intersection-of-two-arrays](https://github.com/aishuJL/practice/tree/master/0349-intersection-of-two-arrays) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -56,6 +59,7 @@
 | [0015-3sum](https://github.com/aishuJL/practice/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/aishuJL/practice/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0088-merge-sorted-array](https://github.com/aishuJL/practice/tree/master/0088-merge-sorted-array) |
+| [0349-intersection-of-two-arrays](https://github.com/aishuJL/practice/tree/master/0349-intersection-of-two-arrays) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -65,6 +69,7 @@
 | ------- |
 | [0015-3sum](https://github.com/aishuJL/practice/tree/master/0015-3sum) |
 | [0088-merge-sorted-array](https://github.com/aishuJL/practice/tree/master/0088-merge-sorted-array) |
+| [0349-intersection-of-two-arrays](https://github.com/aishuJL/practice/tree/master/0349-intersection-of-two-arrays) |
 ## Tree
 |  |
 | ------- |
