@@ -5,7 +5,6 @@ class Solution {
 
         HashMap<Integer, Integer> map = new HashMap<>();
 
-        // STEP 1: Count elements of nums1
         for (int i = 0; i < nums1.length; i++) {
             int value = nums1[i];
 
@@ -17,10 +16,8 @@ class Solution {
             }
         }
 
-        // STEP 2: Store answer in list
         ArrayList<Integer> resultList = new ArrayList<>();
 
-        // STEP 3: Check nums2 against map
         for (int i = 0; i < nums2.length; i++) {
             int value = nums2[i];
 
@@ -34,7 +31,6 @@ class Solution {
             }
         }
 
-        // STEP 4: Convert list to array
         int[] result = new int[resultList.size()];
         for (int i = 0; i < resultList.size(); i++) {
             result[i] = resultList.get(i);
