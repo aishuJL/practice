@@ -1,51 +1,45 @@
 import java.util.*;
+
 class Solution {
-    
     public int[] intersect(int[] nums1, int[] nums2) {
-        int n1 = nums1.length;
-        int n2 = nums2.length;
 
-        Map<Integer, Integer> map = new HashMap<>();
-        ArrayList<Integer> list = new ArrayList<>();
+        HashMap<Integer, Integer> map = new HashMap<>();
 
-        if(n1 > n2){
-            for(int i : nums1){
-                if(!map.containsKey(i)){
-                    map.put(i, 1);    
-                }
-                else{
-                    map.put(i, map.get(i)+1);    
-                }
+        // STEP 1: Count elements of nums1
+        for (int i = 0; i < nums1.length; i++) {
+            int value = nums1[i];
+
+            if (map.containsKey(value)) {
+                int oldCount = map.get(value);
+                map.put(value, oldCount + 1);
+            } else {
+                map.put(value, 1);
             }
-            for(int i : nums2){
-                if(map.containsKey(i) && map.get(i) > 0){
-                    list.add(i);
-                    map.put(i, map.get(i)-1);    
+        }
+
+        // STEP 2: Store answer in list
+        ArrayList<Integer> resultList = new ArrayList<>();
+
+        // STEP 3: Check nums2 against map
+        for (int i = 0; i < nums2.length; i++) {
+            int value = nums2[i];
+
+            if (map.containsKey(value)) {
+                int count = map.get(value);
+
+                if (count > 0) {
+                    resultList.add(value);
+                    map.put(value, count - 1);
                 }
             }
         }
 
-        else{
-            for(int i : nums2){
-                if(!map.containsKey(i)){
-                    map.put(i, 1);    
-                }
-                else{
-                    map.put(i, map.get(i)+1);    
-                }
-            }
-            for(int i : nums1){
-                 if(map.containsKey(i) && map.get(i) > 0){
-                    list.add(i);
-                    map.put(i, map.get(i)-1);    
-                }
-            }
+        // STEP 4: Convert list to array
+        int[] result = new int[resultList.size()];
+        for (int i = 0; i < resultList.size(); i++) {
+            result[i] = resultList.get(i);
         }
 
-        int[] result = new int[list.size()];
-        for (int i = 0; i < list.size(); i++) {
-            result[i] = list.get(i);
-        }
         return result;
     }
 }
