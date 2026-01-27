@@ -29,6 +29,7 @@
 | [0002-add-two-numbers](https://github.com/aishuJL/practice/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/aishuJL/practice/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/aishuJL/practice/tree/master/0009-palindrome-number) |
+| [0441-arranging-coins](https://github.com/aishuJL/practice/tree/master/0441-arranging-coins) |
 ## Recursion
 |  |
 | ------- |
@@ -50,6 +51,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/aishuJL/practice/tree/master/0004-median-of-two-sorted-arrays) |
 | [0349-intersection-of-two-arrays](https://github.com/aishuJL/practice/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/aishuJL/practice/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0441-arranging-coins](https://github.com/aishuJL/practice/tree/master/0441-arranging-coins) |
 ## Divide and Conquer
 |  |
 | ------- |
