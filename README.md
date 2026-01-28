@@ -13,6 +13,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/aishuJL/practice/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/aishuJL/practice/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/aishuJL/practice/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0561-array-partition](https://github.com/aishuJL/practice/tree/master/0561-array-partition) |
 ## Hash Table
 |  |
 | ------- |
@@ -79,6 +80,7 @@
 | [0088-merge-sorted-array](https://github.com/aishuJL/practice/tree/master/0088-merge-sorted-array) |
 | [0349-intersection-of-two-arrays](https://github.com/aishuJL/practice/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/aishuJL/practice/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0561-array-partition](https://github.com/aishuJL/practice/tree/master/0561-array-partition) |
 ## Tree
 |  |
 | ------- |
@@ -91,4 +93,12 @@
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/aishuJL/practice/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+## Greedy
+|  |
+| ------- |
+| [0561-array-partition](https://github.com/aishuJL/practice/tree/master/0561-array-partition) |
+## Counting Sort
+|  |
+| ------- |
+| [0561-array-partition](https://github.com/aishuJL/practice/tree/master/0561-array-partition) |
 <!---LeetCode Topics End-->
