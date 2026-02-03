@@ -35,7 +35,6 @@ class Solution {
         for (int i = 0; i < resultList.size(); i++) {
             result[i] = resultList.get(i);
         }
-
         return result;
     }
 }
