@@ -15,6 +15,7 @@
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/aishuJL/practice/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0561-array-partition](https://github.com/aishuJL/practice/tree/master/0561-array-partition) |
 | [0697-degree-of-an-array](https://github.com/aishuJL/practice/tree/master/0697-degree-of-an-array) |
+| [0896-monotonic-array](https://github.com/aishuJL/practice/tree/master/0896-monotonic-array) |
 ## Hash Table
 |  |
 | ------- |
