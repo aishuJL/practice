@@ -104,4 +104,8 @@
 |  |
 | ------- |
 | [0561-array-partition](https://github.com/aishuJL/practice/tree/master/0561-array-partition) |
+## Database
+|  |
+| ------- |
+| [1757-recyclable-and-low-fat-products](https://github.com/aishuJL/practice/tree/master/1757-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
